@@ -1,0 +1,75 @@
+body{
+    border: 2px solid black;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 610px;
+    background-color: white;
+}
+div{
+    padding-left: 13%;
+}
+
+div .head{
+    margin-bottom: 0;
+    color: orange;
+    text-shadow: 3px 1px black;
+}
+
+div .tail{
+    margin-top: 0;
+}
+
+a{
+    color: maroon;
+}
+header{
+    height: 90px;
+}
+img{
+    width: 80px;
+    padding-top: 0%;
+    padding-left: 2%;
+}
+
+.logo{
+    float: left;
+}
+
+main{
+    border-top: 2px solid orange;
+    /* border-bottom: 2px solid orange; */
+}
+section{
+    width: 48%;
+    float: left;
+    padding-left: 1%;
+
+}
+aside{
+    margin-top: 4%;
+    margin-right: 2%;
+    padding-left: 2%;
+    width: 45%;
+    float: right;
+    background-color: rgb(246, 214, 174);
+}
+
+footer{
+    padding-top: 1%;
+    padding-right: 3%;
+    text-align: right;
+    clear: both;
+    border-top: 2px solid orange;
+}
+
+html {
+    background-image: -moz-linear-gradient( to bottom, white 0%, #facd8a 100%);
+    background-image: -webkit-linear-gradient(
+        to bottom, white 0%, #facd8a 100%);
+    background-image: -o-linear-gradient( to bottom, white 0%, #facd8a 100%);
+    background-image: linear-gradient( to bottom, white 0%, #facd8a 100%);	
+}
+
+.aside{
+    color: maroon;
+}
